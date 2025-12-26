@@ -91,6 +91,27 @@ const projectsData = [
                 </ul>
             </div>
         )
+    },
+    {
+        id: 7,
+        title: "Sleep Coach Mini App",
+        company: "Personal Project",
+        tags: ["Streamlit", "Groq LLM", "Python", "Pandas", "Data Analysis", "AI"],
+        description: "A modern, production-ready sleep analysis tool that generates personalized coaching recommendations.",
+        github: "https://github.com/shivsharankumar/Sleep-Reccomended-System.git",
+        live: "https://sleep-reccomended-system.streamlit.app/",
+        details: (
+            <div className="project-details">
+                <h4>Features:</h4>
+                <ul>
+                    <li><strong>AI Coach:</strong> Integrated with Groq LLM for personalized feedback.</li>
+                    <li><strong>Sleep Metrics:</strong> Calculates average sleep, debt/surplus, and consistency stats.</li>
+                    <li><strong>Risk Assessment:</strong> Heuristic detection of potential issues like insomnia.</li>
+                    <li><strong>Mobile-Friendly Reports:</strong> Generates downloadable, beautifully styled HTML reports.</li>
+                    <li><strong>CSV Upload:</strong> Easy upload of sleep diaries for instant analysis.</li>
+                </ul>
+            </div>
+        )
     }
 ];
 
