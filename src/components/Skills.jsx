@@ -3,9 +3,8 @@ import './Skills.css';
 
 const skills = [
     { category: "Frontend", items: ["React", "HTML/CSS", "Streamlit", "JavaScript"] },
-    { category: "Backend & Cloud", items: ["Python", "AWS S3", "Cloud Server", "API Design"] },
-    { category: "AI & Data", items: ["Deep Learning", "LangChain", "RAG", "FAISS", "Hugging Face"] },
-    { category: "Hardware & Edge", items: ["Jetson Nano", "Microcontrollers", "Edge Computing", "IoT"] }
+    { category: "Backend & Cloud", items: ["Python", "AWS", "Django", "FastAPI", "Flask", "Azure", "API Design"] },
+    { category: "AI & Data", items: ["Deep Learning", "Machine Learning", "LangChain", "RAG", "FAISS", "Hugging Face"] }
 ];
 
 const Skills = () => {

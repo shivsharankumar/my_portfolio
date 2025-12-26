@@ -27,6 +27,8 @@ const projectsData = [
         company: "Personal Project",
         tags: ["Streamlit", "LangChain", "Hugging Face", "FAISS", "Groq", "EuriAI"],
         description: "Intelligent document assistant for clinicians and researchers to converse with medical PDFs.",
+        github: "https://github.com/shivsharankumar/AnyDocChat-Pro-.git",
+        live: "https://anydocchatpro.streamlit.app/",
         details: (
             <div className="project-details">
                 <p>Upload PDFs, extract text, and ask natural language questions. Powered by RAG (Retrieval-Augmented Generation) with FAISS indexing and LLM integration.</p>
@@ -49,10 +51,46 @@ const projectsData = [
         id: 4,
         title: "RAG Chatbot",
         company: "Motherson Technology Service Limited",
-        link: "https://www.retimer.com.au/",
+        live: "https://www.retimer.com.au/",
+        github: "https://github.com/shivsharankumar/Ecommerce-chatbot.git",
         tags: ["RAG", "Chatbot", "AI"],
         description: "An AI-powered chatbot implemented for the Re-Timer website to assist users.",
         details: null
+    },
+    {
+        id: 5,
+        title: "Analytics Tool",
+        company: "Perceptiviti",
+        tags: ["Python", "Django", "React", "Material-UI", "ReactChartjs2"],
+        description: "Interactive analytics platform improving data visualization efficiency.",
+        details: (
+            <div className="project-details">
+                <ul>
+                    <li>Developed a Python Django and React analytics tool, increasing data visualization efficiency.</li>
+                    <li>Utilized Material-UI and ReactChartjs2 for improved UI and chart creation.</li>
+                    <li>Implemented dynamic dashboard generation from JSON data, reducing setup time.</li>
+                    <li>Processed database data into JSON to accelerate frontend visualization.</li>
+                    <li>Created an interactive workspace for query discussions and insights, including automated email notifications.</li>
+                </ul>
+            </div>
+        )
+    },
+    {
+        id: 6,
+        title: "MediCoder",
+        company: "Perceptiviti",
+        tags: ["NLP", "Python", "Django", "React", "Healthcare"],
+        description: "NLP-based application converting disease descriptions into ICD-10-CM codes.",
+        details: (
+            <div className="project-details">
+                <ul>
+                    <li>Developed "MediCoder" – an NLP-based project using Python Django (backend) and React (frontend).</li>
+                    <li>Designed a system to convert disease descriptions into ICD-10-CM codes using NLP.</li>
+                    <li>Demonstrated expertise in Python and React for full-stack development.</li>
+                    <li>Improved healthcare data management with automated disease description coding.</li>
+                </ul>
+            </div>
+        )
     }
 ];
 
@@ -95,9 +133,14 @@ const Projects = () => {
                                         {expandedId === project.id ? 'Show Less' : 'View Details'}
                                     </button>
                                 )}
-                                {project.link && (
-                                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn-text">
-                                        Visit Site &rarr;
+                                {project.github && (
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn-text">
+                                        GitHub &rarr;
+                                    </a>
+                                )}
+                                {project.live && (
+                                    <a href={project.live} target="_blank" rel="noopener noreferrer" className="btn-text">
+                                        Live Demo &rarr;
                                     </a>
                                 )}
                             </div>

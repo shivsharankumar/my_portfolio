@@ -17,6 +17,16 @@ const Layout = ({ children }) => {
                             <li><a href="#contact">Contact</a></li>
                             <li>
                                 <a
+                                    href="https://github.com/shivsharankumar"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="nav-social"
+                                >
+                                    GitHub
+                                </a>
+                            </li>
+                            <li>
+                                <a
                                     href="https://www.linkedin.com/in/shiv-sharan-kumar-93aa3219b/"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -38,6 +48,7 @@ const Layout = ({ children }) => {
                 <div className="container footer-content">
                     <p>&copy; {new Date().getFullYear()} Shiv Sharan Kumar. All rights reserved.</p>
                     <div className="footer-links">
+                        <a href="https://github.com/shivsharankumar" target="_blank" rel="noopener noreferrer">GitHub</a>
                         <a href="https://www.linkedin.com/in/shiv-sharan-kumar-93aa3219b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ const Contact = () => {
                 </p>
 
                 <div className="contact-methods">
-                    <a href="mailto:contact@shivsharan.dev" className="contact-card">
+                    <a href="mailto:shivsharan47@gmail.com" className="contact-card">
                         <div className="icon">✉️</div>
                         <h3>Email</h3>
                         <p>Send me an email</p>
@@ -25,6 +25,16 @@ const Contact = () => {
                         <div className="icon">💼</div>
                         <h3>LinkedIn</h3>
                         <p>Connect professionally</p>
+                    </a>
+                    <a
+                        href="https://github.com/shivsharankumar"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="contact-card"
+                    >
+                        <div className="icon">💻</div>
+                        <h3>GitHub</h3>
+                        <p>View my code</p>
                     </a>
                 </div>
             </div>
