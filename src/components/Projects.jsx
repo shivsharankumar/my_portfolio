@@ -26,7 +26,7 @@ const projectsData = [
         title: "AnyDocChat Pro",
         company: "Personal Project",
         tags: ["Streamlit", "LangChain", "Hugging Face", "FAISS", "Groq", "EuriAI"],
-        description: "Intelligent document assistant for clinicians and researchers to converse with medical PDFs.",
+        description: "Intelligent document assistant for clinicians and researchers to converse with any PDFs.",
         github: "https://github.com/shivsharankumar/AnyDocChat-Pro-.git",
         live: "https://anydocchatpro.streamlit.app/",
         details: (
