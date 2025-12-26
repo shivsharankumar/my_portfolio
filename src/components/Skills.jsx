@@ -4,7 +4,7 @@ import './Skills.css';
 const skills = [
     { category: "Frontend", items: ["React", "HTML/CSS", "Streamlit", "JavaScript"] },
     { category: "Backend & Cloud", items: ["Python", "AWS", "Django", "FastAPI", "Flask", "Azure", "API Design"] },
-    { category: "AI & Data", items: ["Deep Learning", "Machine Learning", "LangChain", "RAG", "FAISS", "Hugging Face"] }
+    { category: "AI & Data", items: ["Deep Learning", "Machine Learning", "LangChain", "RAG", "FAISS", "Hugging Face","NLP", "Data Analysis"] }
 ];
 
 const Skills = () => {
